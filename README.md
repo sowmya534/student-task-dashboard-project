@@ -8,9 +8,9 @@ Student Task Dashboard is a full-stack web application that helps students manag
 
 ## Live Project Links
 
-* **Live Website (Frontend):** https://sowmya534.github.io/student-task-dashboard/
+* **Live Website (Frontend):** https://sowmya534.github.io/student-task-dashboard-project/
 * **Backend API:** https://student-task-dashboard-xlln.onrender.com/tasks
-* **GitHub Repository:** https://github.com/sowmya534/student-task-dashboard
+* **GitHub Repository:** https://github.com/sowmya534/student-task-dashboard-project
 
 ---
 
