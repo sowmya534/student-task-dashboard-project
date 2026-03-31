@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Task Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Task Dashboard</h1>
+</header>
+
+<div class="container">
+    <h2>Add / Edit Task</h2>
+    <input type="text" id="title" placeholder="Task Title">
+    <input type="text" id="description" placeholder="Description">
+    <input type="date" id="deadline">
+
+    <select id="priority">
+        <option value="High">High Priority</option>
+        <option value="Medium">Medium Priority</option>
+        <option value="Low">Low Priority</option>
+    </select>
+
+    <button onclick="addTask()">Save Task</button>
+</div>
+
+<div class="container">
+    <h2>Search Task</h2>
+    <input type="text" id="search" placeholder="Search task..." onkeyup="searchTask()">
+</div>
+
+<div class="container stats">
+    <p>Total Tasks: <span id="total">0</span></p>
+    <p>Completed: <span id="completed">0</span></p>
+    <p>Pending: <span id="pending">0</span></p>
+</div>
+
+<div class="container">
+    <h2>Your Tasks</h2>
+    <ul id="taskList"></ul>
+</div>
+
+<footer>
+    <p>© 2026 Student Task Dashboard</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
